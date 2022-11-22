@@ -1,10 +1,10 @@
 [package]
-name = "IdGenerator"
+name = "ClientId"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-tide = "*"
-async-std = { version = "1.6.0", features = ["attributes"] }
-futures = "*"
-clap = { version = "4.0.26", features = ["derive"] }
+#futures = "*"
+#reqwest = "*"
+#tokio = { version = "1", features = ["macros"] }
+http_req = "*"
